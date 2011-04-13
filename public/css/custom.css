@@ -1,0 +1,16 @@
+/* Overlay */
+.wpis-textoverlay-overlay {
+	opacity: <?php echo number_format($this->options['general']['textoverlay_opacity'] / 100, 2, '.', ''); ?>;
+	filter: alpha(opacity=<?php echo $this->options['general']['textoverlay_opacity']; ?>);
+	background-color: #<?php echo $this->options['general']['textoverlay_color']; ?>;
+}
+
+.wpis-textoverlay span {
+	color: #<?php echo $this->options['general']['textoverlay_textcolor']; ?>;
+}
+
+.wpis-coloroverlay {
+	opacity: <?php echo number_format($this->options['general']['coloroverlay_opacity'] / 100, 2, '.', ''); ?>;
+	filter: alpha(opacity=<?php echo $this->options['general']['coloroverlay_opacity']; ?>);
+	background-color: #<?php echo $this->options['general']['coloroverlay_color']; ?>;
+}
