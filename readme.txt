@@ -38,9 +38,9 @@ Of course! The configuration file for the icons is located in '[plugindir]/confi
 
 == Screenshots ==
 
-1. Sample post with a few buttons and the text overlay enabled screenshot-samplepost.jpg
-2. Configuring the icons in the admin panel screenshot-configureicons.jpg
-3. Using 48x48 buttons screenshot-buttonsize.jpg
+1. Sample post with a few buttons and the text overlay enabled
+2. Configuring the icons in the admin panel
+3. Using 48x48 buttons
 
 == Changelog ==
 
